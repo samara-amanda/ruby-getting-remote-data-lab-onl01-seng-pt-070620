@@ -5,7 +5,7 @@ class GetRequester
   attr_writer :URL
 
 
-  def initialize
+  def initialize(URL)
     @URL = @URL
   end
 
