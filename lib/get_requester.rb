@@ -15,13 +15,13 @@ class GetRequester
   end
 
   def parse_json
-    response = JSON.parse(self.get_response_body)
-    response.collect do |program|
+    programs = JSON.parse(self.get_response_body)
+    programs.collect do |program|
       program["agency"]
     end
-
   end
 
-
-
 end
+
+programs. GetRequester.new
+puts programs.parse_json.uniq
