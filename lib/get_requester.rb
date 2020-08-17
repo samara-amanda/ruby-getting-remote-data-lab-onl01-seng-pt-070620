@@ -1,8 +1,13 @@
 require 'open-uri'
 require 'net/http'
 
-class GetRequester(URL)
+class GetRequester
+  attr_reader :URL
+  
 
+  def initialize
+    @URL = @URL
+  end
 
   def get_response_body
     uri = URI.parse(URL)
