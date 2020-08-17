@@ -5,7 +5,7 @@ require 'json'
 class GetRequester
   attr_accessor :URL
 
-  def initialize
+  def initialize(URL)
     @URL = URL
   end
 
