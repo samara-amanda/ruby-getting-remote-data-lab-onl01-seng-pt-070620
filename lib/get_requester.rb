@@ -17,7 +17,6 @@ class GetRequester
 
   def parse_json
     programs = JSON.parse(self.get_response_body)
-    end
 
   end
 
