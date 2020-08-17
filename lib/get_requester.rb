@@ -22,7 +22,7 @@ class GetRequester
     end
 
   end
-  programs = GetPrograms.new
-  puts programs.program_school.uniq
+  programs = GetRequester.new
+  puts programs.parse.json.uniq
 
 end
