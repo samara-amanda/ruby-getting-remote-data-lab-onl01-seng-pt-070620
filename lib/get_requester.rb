@@ -2,7 +2,6 @@ require 'open-uri'
 require 'net/http'
 
 class GetRequester
-  attr_accessor :URL
 
   def initialize
     @URL = @URL
