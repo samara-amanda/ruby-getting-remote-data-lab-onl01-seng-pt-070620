@@ -3,7 +3,7 @@ require 'net/http'
 
 class GetRequester
   attr_reader :URL
-  
+
 
   def initialize
     @URL = @URL
