@@ -23,4 +23,3 @@ class GetRequester
   end
 
 end
-
