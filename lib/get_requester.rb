@@ -23,5 +23,4 @@ class GetRequester
   end
 end
 
-programs = GetRequester.new
-puts programs.parse_json.uniq
+
