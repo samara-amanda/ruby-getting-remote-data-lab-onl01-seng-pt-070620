@@ -3,7 +3,7 @@ require 'net/http'
 
 class GetRequester
 
-  def initialize(ur)
+  def initialize(URL)
     @URL = @URL
   end
 
