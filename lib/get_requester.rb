@@ -2,8 +2,9 @@ require 'open-uri'
 require 'net/http'
 
 class GetRequester
+  
 
-  def initialize(URL)
+  def initialize
     @URL = @URL
   end
 
