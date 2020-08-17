@@ -21,6 +21,5 @@ class GetRequester
       program["agency"]
     end
   end
-  programs = GetRequester.new
-  puts programs.parse_json.uniq
+  
 end
