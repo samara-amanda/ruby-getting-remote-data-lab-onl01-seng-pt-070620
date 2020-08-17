@@ -6,7 +6,7 @@ class GetRequester
   attr_reader :url
 
   def initialize
-    @URL = url
+    @url = url
   end
 
   def get_response_body
