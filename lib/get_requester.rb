@@ -23,6 +23,6 @@ class GetRequester
 
   end
   programs = GetPrograms.new
-puts programs.program_school.uniq
+  puts programs.program_school.uniq
 
 end
