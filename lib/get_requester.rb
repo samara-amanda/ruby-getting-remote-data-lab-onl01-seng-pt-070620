@@ -21,7 +21,7 @@ class GetRequester
       program["agency"]
     end
     programs = GetPrograms.new
-puts programs.program_school.uniq
+    puts programs.program_school.uniq
   end
 
 end
