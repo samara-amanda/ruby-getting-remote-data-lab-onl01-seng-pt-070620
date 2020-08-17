@@ -20,7 +20,9 @@ class GetRequester
     programs.collect do |program|
       program["agency"]
     end
-    
+
   end
+  programs = GetPrograms.new
+puts programs.program_school.uniq
 
 end
