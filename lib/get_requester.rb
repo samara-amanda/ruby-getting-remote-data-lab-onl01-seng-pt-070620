@@ -1,5 +1,5 @@
-require 'open-uri'
 require 'net/http'
+require 'open-uri'
 require 'json'
 
 class GetRequester
@@ -21,5 +21,5 @@ class GetRequester
       program["agency"]
     end
   end
-  
+
 end
